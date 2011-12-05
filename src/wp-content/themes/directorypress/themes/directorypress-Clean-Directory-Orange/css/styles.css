@@ -1,0 +1,93 @@
+/*
+color: ed9100 / fef7ed
+*/
+
+	body { margin-top:10px; background:#fef7ed url(../images/bg.png) repeat; }
+	.wrapper { background:#fff; border:10px solid #fff; -webkit-box-shadow: 0 0 0px #cccccc; -moz-box-shadow: 0 0 0px #cccccc;  	-webkit-box-shadow: 0 0 0px #ccc;  	box-shadow:0px 0px 15px #ccc; }
+
+	a, h1, h3 { color:#ed9100; }
+	 
+	/* ===================== COLUMN WIDTHS ======================== */ 
+
+	.leftSidebar { width:20%; margin-right:10px; margin-left:0px; }
+	.middleSidebar { width:74% }
+	.rightSidebar { width:24.5%; margin-left:10px; margin-right:0px; }
+	#PPTSinglePage-post .rightSidebar { width:260px;   }
+
+	/* ===================== HEADER STYLES ======================== */ 
+	 
+	#header {height: 110px; }
+	#header, .menu { margin-left: 0px; width:960px; }
+	
+	#banner {margin-top: 0px; }
+
+	#hpages { text-align:right; float: right; height:30px;width:500px; background:#fef7ed;   }
+	#hpages ul {    float:right; margin-top:2px; width:500px; }
+	#hpages ul li { float: right; padding-right: 10px; margin-right: 10px; border-right: 1px solid #333; }
+	#hpages ul li.last { padding-right: 0; margin-right: 0; border-right: none; }
+	#hpages ul li a { text-decoration: none; color: #fff; }
+	#hpages ul li a:hover { color: #ccc; }
+	#hpages ul li.current a { color: #ccc; }		 
+ 
+	#hpages ul { padding-top:5px;  }
+	#hpages ul li { border-right:1px solid #fff1cf; }
+	#hpages ul li a {color: #ed9100 }
+ 	#hpages ul li ul li a {color: #fff }
+ 
+ 	.menu { background:url(../images/nav.gif) repeat-x;  }
+	.menu li { 	background:url(../images/menu_spacer.png) top right no-repeat; height:100%; }
+ 	#submenubar { margin-left:0px; }
+	 
+		#SearchForm {  margin-left:0px; text-align:center; }
+		#searchBox span { margin-left:10px; text-decoration:underline;}		 
+		#searchBox .searchBtn { margin:0px; border:0px; width:50px; height:29px; background:url(../images/search.gif) no-repeat; border:0px !important; padding:0px; float:left; cursor:pointer; }
+ 	
+	ul.submenu_account { font-size:12px; text-transform:uppercase; }
+	ul.submenu_account li { font-size:12px; }
+	
+	/* ===================== CONTENT STYLES  ======================== */ 
+	
+	#content { padding:0px; padding-top:10px; }
+	.middleSidebar h1 {   color:#ed9100; }
+	
+	#griddler hgroup.price { background: #ed9100 url(../images/nav.gif) repeat-x !important; border:1px solid #fef7ed !important; }
+	#griddler .price h2 { border-top:0px !important; border-right:0px !important; border-left:0px !important; }
+	
+	#PPTSinglePage-post .first_col { margin-left:20px; margin-bottom:20px; }
+	ul.tabs li { background:#fff url(../images/content_pane-gradient.gif) bottom left repeat-x; }
+	
+	/* ===================== FOOTER STYLES  ======================== */ 
+	
+	.btnDownload_01:before { content: url(../images/icon-sidebar-button.png); background:url(../images/nav.gif) repeat-x; }
+	#sidebar_recentarticle { padding:10px; }
+	
+	/* ===================== SIDEBAR STYLES  ======================== */ 
+	
+	#footer { background-image:none; background:#fef7ed;  color: #ed9100;  }
+	#footer p, #footer h3, .recentarticles a { color: #ed9100; }
+	.recentarticles a { text-decoration:underline; }
+	
+	/* ===================== SLIDERS  ======================== */ 
+
+	.myslider { margin-top:10px; }
+	#siteFeature {position:relative;  background:#efefef; border:1px solid #fff; margin-left:0px !important; width:960px !important; }
+	#siteFeature #tabContainer a:link, #siteFeature #tabContainer a:visited { background: transparent url(../images/_slider_inactive.png) no-repeat; }
+	#siteFeature #tabContainer a:hover{ background:#fff url(../images/_slider_inactive1.png) no-repeat; }
+	#siteFeature #tabContainer a h4 { color: #666; padding:10px 11px 0px 11px; }	
+	#siteFeature #tabContainer a.selected h4, #siteFeature #tabContainer a.selected p { color: #fff; text-shadow: 0px 1px 0px #666; }	
+	.PPTActiveTab { background: transparent url(../images/_slider_active.png); }
+	#siteFeature #txtBoxContainer a { color:#fff;} 
+	#siteFeature h3 { color:#fff; }
+	
+ 
+	.itembox { border: 1px solid #E2E2E2; clear: both;margin: 0px 0px 15px;padding: 0px;  }
+	.itembox h2, .itembox h1 {	margin: 0px 0;	 font-size:16px;     line-height:28px;     text-transform:uppercase;    min-height:40px;  margin-bottom:0px;     border-bottom:solid 1px #e8e8e8;    padding:12px 20px 0 20px;    background-image:url(../images/itemboxh2.gif);    background-color:#efeeee;   background-repeat:repeat-x;	color:#444;}
+	.itemboxinner {  background:#fff url(../images/content_pane-gradient.gif) bottom left repeat-x; }
+
+
+	/* ===================== GALLERY STYLES  ======================== */ 
+	
+	#SearchContent .hightlighted .itemboxinner { background:transparent; }
+	#SearchContent .icon-search-item {background: #C9C9C9;}
+	#SearchContent .hightlighted {background: #fef7ed url(../images/_gallerypage_highlighted.png) no-repeat right bottom;border: 3px solid #ed9100;}
+	#SearchContent .hightlighted h1 {color: white !important;background: #fef7ed url(../images/nav.gif) repeat-x; text-shadow: 0px 1px 0px #666;padding-left: 10px;}
